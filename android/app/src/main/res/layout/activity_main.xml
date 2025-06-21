@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:id="@+id/statusLabel"
+            android:text="Status:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/statusValue"
+            android:text="Disconnected"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textColor="#FF0000" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ipInput"
+        android:hint="Enter your designated device IP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:text="Connect"
+        android:backgroundTint="#4CAF50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/disconnectButton"
+        android:text="Disconnect"
+        android:backgroundTint="#F44336"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/messageInput"
+        android:hint="Enter message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:text="Send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#EEEEEE"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/messageLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#000000" />
+    </ScrollView>
+
+</LinearLayout>
