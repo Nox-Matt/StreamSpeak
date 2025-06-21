@@ -11,13 +11,13 @@
 ## 🚀 How to Run
 
 1. **PC Side**
-   - Download the `.exe` from [Releases](https://github.com/yourusername/StreamSpeak/releases) or run the Python script directly if you have Python 3 installed:
+   - Download the `.exe` from [Releases](https://github.com/Nox-Matt/StreamSpeak/releases) or run the Python script directly if you have Python 3 installed:
      ```bash
      python interface.py
      ```
 
 2. **Phone Side**
-   - Download the `StreamSpeak.apk` from [Releases](https://github.com/yourusername/StreamSpeak/releases)
+   - Download the `StreamSpeak.apk` from [Releases](https://github.com/Nox-Matt/StreamSpeak/releases)
    - Install it on your Android device
 
 3. **Connect**
